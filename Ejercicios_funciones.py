@@ -56,7 +56,7 @@ print(f"Le debo a mi mamá ${vueltas(p,l,h,B)}")
 def prestamo(x):
     return ((x*3) / 100) * 2
 x = int(input("Pedí un préstamo para pagarlo en 2 meses de: $"))
-print(f"Como el interés es de un 3% mensual, al final debo pagar ${int(prestamo(x))}")
+print(f"Como el interés es de un 3% mensual, al final debo pagar ${int(prestamo(x))} adicionales")
 
 #Porblema 4
 def contagios(C,D):
